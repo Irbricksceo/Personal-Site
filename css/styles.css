@@ -22,3 +22,58 @@ h3 {
 a {
     color: #db6400
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5eaaa8;
+    padding: 12px 24px;
+}
+
+nav .nav-title {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav .home-btn {
+    color: #fff;
+    background-color: #a3d2ca;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+nav .home-btn:hover {
+    background-color: #f8f1f1;
+    color: #5eaaa8;
+}
+
+.project-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 24px;
+}
+
+.screenshot-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.screenshot-placeholder {
+    width: 340px;
+    height: 220px;
+    border: 2px dashed #a3d2ca;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a3d2ca;
+    font-size: 0.9em;
+    background-color: #fff;
+}

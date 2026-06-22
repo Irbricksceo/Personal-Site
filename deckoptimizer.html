@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Cookbook 2.0 | Heather Murphy</title>
+        <title>Yugioh Deck Optimizer | Heather Murphy</title>
         <link rel="stylesheet" href="css/styles.css">
         <link rel="icon" href="favicon.ico">
     </head>
@@ -17,17 +17,23 @@
         </nav>
 
         <div class="project-content">
-            <h1>Cookbook 2.0</h1>
+            <h1>Yugioh Deck Optimizer</h1>
             <hr>
 
             <h3>About This Project</h3>
             <p>
-                Cookbook 2.0 is a full stack web application I wrote to practice the creation of RESTful APIs 
-                and their implementation. Using a C# backend, mySQL for the database, and a react frontend, I built 
-                out the application to support creating and categorizing recipes. Long term, I am considering adding
-                user accounts and custom recipe properties, however the next step at this time is to focus on styling. 
-                This project is an ongoing WIP, serving as a testbed of sorts where I can practice full stack development
-                and self hosting. 
+                A deck optimizer for the Yugioh trading card game, this is a purely JS application for now. 
+                The project allows a user to upload a deck list, define card categories, define what sort of
+                criteria they want to find in a hand, and then test. It draws thousands of test-hands in seconds
+                and compares them against the criteria to return a clear consistency percentage. 
+
+                And then the magic kicks in. The user can tell the application which cards can have their count altered
+                and have the program check all of those variations to find the optimal changes for a specific target hand.
+
+                This project was my first time using an AI-First development approach. I started it primarly to practice
+                spec-driven development via Claude. This has resulted in a working prototype exceptionally fast, although the
+                tradeoff at this time is some questionable code choices and a few broken areas. I'm continuing to iterate on it
+                and as such treate this project as an active WIP.
             </p>
             <p><strong>Technologies used:</strong> [Add technologies here]</p>
             <p><a href="https://github.com/Irbricksceo">View on GitHub</a></p>
